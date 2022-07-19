@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: PC_FIVETRAN_DB
+    database: PC_FIVETRAN_DB
+    schema: MYSQL_BIG_DATA
+    tables:
+      - name: OLIST_CUSTOMERS_DATASET_CSV
+      - name: OLIST_ORDER_ITEMS_DATASET_CSV
+      - name: OLIST_PRODUCTS_DATASET_CSV
+      - name: PRODUCT_CATEGORY_NAME_TRANSLATION_CSV
+      - name: OLIST_ORDERS_DATASET_CSV
