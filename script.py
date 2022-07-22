@@ -17,10 +17,10 @@ print("Connection Successful!")
 
 print("Reading Files and loading data...")
 
-files = os.listdir("/Users/tyson/new_projects/powertwo/docs")
+files = os.listdir("/Users/tyson/new_projects/wonderland/docs")
 
 for file in files:
-    df = pd.read_csv(f"/Users/tyson/new_projects/powertwo/docs/{file}", index_col=False)
+    df = pd.read_csv(f"/Users/tyson/new_projects/wonderland/docs/{file}", index_col=False)
     df.to_sql(f'{file}', con=engine, if_exists='append', index=False)
 
 print("Data Loaded!")
