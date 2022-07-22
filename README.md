@@ -1,9 +1,17 @@
 # wonderland
 Analytics Engineering
 
+##Tools Used
+* Python
+* Azure MySQL
+* Snowflake (DataWarehousing)
+* Data Build Tool (DBT)
+* FiveTran (Data Integration)
+* Tableau (Data Visualization)
+
 Loading CSV files into a MySQL database hosted on the cloud.
-Integrating data into OLAP (Snowflake) with FiveTran (Plug and Play)
-Solving business questions:
+Migrate data into Datawarehouse (Snowflake) with FiveTran (Data Integration Tool) to..
+Solve business related questions:
 1. What are the best selling products? 
 2. Who are the most valuable customers?
 3. Which geographic regions spend the most money?
