@@ -15,8 +15,8 @@ and finally visualizing the data with Tableau (Data Visualization Application)
 
 ## Tools Used
 * Python
-* Azure MySQL
-* Snowflake (DataWarehousing)
+* Azure MySQL (OLTP)
+* Snowflake (Data Warehouse)
 * Data Build Tool (DBT)
 * FiveTran (Data Integration)
 * Tableau (Data Visualization)
