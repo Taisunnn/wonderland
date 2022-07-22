@@ -11,7 +11,7 @@ DATABASE = "big_data"
 print("Connecting to Database...")
 
 ssl_args = {'ssl_ca':'/Users/tyson/new_projects/powertwo/DigiCertGlobalRootCA.crt.pem'}
-engine = create_engine(f'mysql+pymysql://{CONNECTION STRING}/{DATABASE}', connect_args=ssl_args)
+engine = create_engine(f'mysql+pymysql://{CONNECTION_STRING}/{DATABASE}', connect_args=ssl_args)
 
 print("Connection Successful!")
 
