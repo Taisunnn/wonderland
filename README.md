@@ -8,4 +8,5 @@ Solving business questions:
 2. Who are the most valuable customers?
 3. Which geographic regions spend the most money?
 
-\nWith DataBuildTool (DBT)
+Building models with Data Build Tool (DBT)
+and finally visualizing the data with Tableau (Data Visualization Application)
